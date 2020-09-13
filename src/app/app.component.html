@@ -1,1 +1,4 @@
-<h5>system-manager-app</h5>
+<button (click)="onStatus('default')">status</button>
+<app-system-bar [status]="status"></app-system-bar>
+<button (click)="onRelease('default')">release</button>
+<app-release-list [release]="release"></app-release-list>

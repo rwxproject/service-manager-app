@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>status</th>
+      <th>ready</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stat of status">
+      <td>{{ stat.name }}</td>
+      <td>{{ stat.status }}</td>
+      <td>{{ stat.ready }}</td>
+    </tr>
+  </tbody>
+</table>
